@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\speedtest]
+@="SpeedTest"
+"Icon"="C:\\SysRot\\speedtest\\speedtest.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\speedtest\command]
+@="\"C:\\SysRot\\speedtest\\speed.exe\" \"%v.\""
